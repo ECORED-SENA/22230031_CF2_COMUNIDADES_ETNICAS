@@ -1,0 +1,66 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "intro",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","intro"],
+    "path": "pages/1-tema.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "intervencion",
+    "title": "1. Intervención en comunidades étnicas",
+    "breadcrumb": ["Inicio","intervencion"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "intervencion",
+        "title": "1.1 Diálogo y negociación de conflictos",
+        "anchor": "dialogo"
+      },
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "intervencion",
+        "title": "1.2 Técnicas de diálogo, resolución de conflictos y negociación con comunidades étnicas",
+        "anchor": "tecnicas"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "planificacion",
+    "title": "2. Planificación acciones socio ambientales",
+    "breadcrumb": ["Inicio","planificacion"],
+    "path": "pages/3-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "planificacion",
+        "title": "2.1. Identificación de riesgos e impactos ambientales",
+        "anchor": "identificacion"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "planificacion",
+        "title": "2.2. Proyectar y priorizar acciones socio ambientales",
+        "anchor": "proyectar"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "planificacion",
+        "title": "2.3. Plan de acción socio ambiental en comunidades étnicas",
+        "anchor": "plan"
+      }
+    ]
+  }
+]
