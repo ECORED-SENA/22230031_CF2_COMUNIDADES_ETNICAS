@@ -7,7 +7,7 @@
   },
   {
     "id": 1,
-    "icon": "fa fa-play-circle",
+    "icon": "fa fa-file-text",
     "slug": "intro",
     "title": "Introducción",
     "breadcrumb": ["Inicio","intro"],
@@ -28,7 +28,7 @@
         "anchor": "dialogo"
       },
       {
-        "icon": "fa fa-play-circle",
+        "icon": "fa fa-file-text",
         "slug": "intervencion",
         "title": "1.2 Técnicas de diálogo, resolución de conflictos y negociación con comunidades étnicas",
         "anchor": "tecnicas"
@@ -62,5 +62,11 @@
         "anchor": "plan"
       }
     ]
-  }
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad.html"
+  } 
 ]
